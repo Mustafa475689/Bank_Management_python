@@ -1,5 +1,6 @@
-print("This file is to create python project as Banking Manegment system")
-# Greeting
-print("Welcome")
-# Sunday commit
-print("Sunday")
+print("Press 1 for Creating an Account")
+print("Press 2 for Deposite the money in the Bank")
+print("Press 3 for withdraw the money")
+print("Press 4 for Deteils")
+print("Press 5 to Update the Details")
+print("Press 6 for Delete the Account")
