@@ -53,6 +53,11 @@ class Bank:
 
             Bank.__update()
 
+    def depositmoney(self):
+        accnumber = input("please tell your accounnt number: ")
+        pin = input("Tell your 4 number pin: ")
+
+        print(Bank.data)
 
 user = Bank()
 
@@ -67,3 +72,6 @@ check = int(input("Tell your response here: "))
 
 if  check == 1:
     user.createaccount()
+
+if check == 2:
+    user.depositmoney()
